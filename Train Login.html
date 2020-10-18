@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login To OnlineTicket|Jumanji.com</title>
+	<script src="trainlogin.js"></script>
+	<link rel="icon" type="image/x-icon" href="F:\Documents\Web Development\Project\Jumanji Travels\Images\Logo.png">
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			background:url(burj.jpg);
+			background-size: cover;
+		}
+		.loginbox{
+			width: 370px;
+			height: 450px;
+			background: #fff9;
+			margin-top: 150px;
+			margin-left: 22%;
+			margin-right: 40%;
+			color: #fff;
+			box-sizing: border-box;
+			padding-left: 60px;
+			padding-right: 40px;
+		}
+		.avatar{
+			margin-top: -27%;
+			margin-left: 22%;
+
+		}
+		p{
+			
+			padding: 0;
+			font-family: serif;
+			color: black;
+			font-weight: bold;
+		}
+		.loginbox input{
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		.loginbox input[type="text"], input[type="password"]{
+			border:none;
+			border-bottom: 1.3px solid red;
+			background: transparent;
+			outline: none;
+			height: 25px;
+			color: #000;
+			font-size: 15px;
+		}
+		.loginbox input[type="submit"]
+		{
+			border:none;
+			outline: none;
+			height: 40px;
+			background: #fb2525;
+			color: #fff;
+			height: 45px;
+			font-size: 18px;
+			border-radius: 20px;
+		}
+		.loginbox input[type="submit"]:hover{
+			cursor: pointer;
+			font-family: serif;
+			background: #ffc108;
+			color: #000;
+		}
+		.loginbox a{
+			text-decoration: none;
+			font-size: 12px;
+			line-height: 20px;
+			color: #000;
+		}
+		.loginbox a:hover{
+			color: #36c108;
+			font-size: 23px;
+		}
+	</style>
+</head>
+<body>
+    <div class="loginbox">
+    <img src="F:\Documents\Web Development\Project\Jumanji Travels\Images\Logo.png" class="avatar" width="130px" height="130px">
+    <form onsubmit="validate()">
+    	<p>User name</p>
+    	<input type="text" name="" placeholder="enter Username">
+    	<p>Password</p>
+    	<input type="Password" name="" placeholder="enter password" id="pass"><br>
+    	<input type="Submit" name="" value="Login"><br><br>
+    	<a href="#">Forget Password?</a><br>
+    	<a href="signup.html">New User</a>
+    </form>
+</div>
+</body>
+</html>

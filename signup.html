@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up| Flight</title>
+	<link rel="icon" href="signuplogo1.png" type="image/x-icon">
+	<script type="text/javascript">
+		function fn()
+{
+	var result=true;
+	var i =document.getElementsByTagName("input");
+	if(i[0].value.length==0)
+	{
+		alert("Form can't be empty");
+		result(false);	
+	}
+	else
+	{
+		confirm("Check Your Details Once")
+	}
+	return(result);
+}
+	</script>
+	<style type="text/css">
+	body{
+		background: url("bgt9.jpg");
+		background-size: cover;
+	}
+	.box{
+		    width: 370px;
+			height: 590px;
+			background: #fff7;
+			margin-top: 100px;
+			margin-left: 36%;
+			margin-right: 45%;
+			color: #000;
+			box-sizing: border-box;
+			padding-top: 30px;
+			padding-left: 56px;
+			padding-right: 40px;
+		}
+		.box input{
+			font-family: serif;
+			width: 85%;
+			margin-bottom: 5px;
+		}
+		.box input[type="text"], input[type="password"]{
+			border: none;
+			border-bottom: 1.2px solid purple;
+			height: 20px;
+			background: transparent;
+			outline: none;
+			font-size: 15px;
+			font-family: serif;
+		}
+		.box input[type="submit"]{
+			cursor: pointer;
+			height: 40px;
+			font-family: cursive;
+			border-radius: 40px;
+			background: #fc2;
+			color: #000;
+		}
+		.box input[type="submit"]:hover{
+			font-family: serif;
+			background: red;
+			color: #000;
+		}
+		p{
+			font-family: verdana;
+		}
+	</style>
+
+</head>
+<body>
+<div class="box">
+	<marquee style="padding-top: 0px;" >Register Here!</marquee>
+	<form onsubmit="fn()">
+		<p>First Name:</p>
+		<input type="text" name="">
+		<p>Last Name:</p>
+		<input type="text" name="">
+		<p>Username</p>
+		<input type="text" name="">
+		<p>Email</p>
+		<input type="text" name="">
+		<p>Password</p>
+		<input type="Password" name="">
+		<p>Confirm Password</p>
+		<input type="password" name=""><br><br>
+		<input type="submit" name="">
+	</form>
+</div>
+</body>
+</html>

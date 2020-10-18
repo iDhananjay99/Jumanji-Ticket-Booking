@@ -1,0 +1,35 @@
+
+
+
+body
+{
+	margin: 0;
+	margin-top: 0;
+}
+header
+{
+	font-family: lucida calligraphy;
+	font-size: 20px;
+	background: black;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 55px;
+}
+nav ul{
+	display: inline;
+	padding: 0px;
+	float: right;
+	padding-right: 320px;
+}
+nav ul li
+{
+	padding-left: 65px;
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
